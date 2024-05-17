@@ -6,7 +6,7 @@ import YoutubeComponent from './YoutubeComponent';
 const ViewPage = () => {
     const {watchid} = useParams();
   return (
-    <div className='w-screen flex h-screen'>
+    <div className='w-100% flex h-screen'>
    {watchid=="vcwsBgrUIS4" &&<FoodComponent/>}
    {watchid=="zf6M6pR9QA8" &&<NetflixComponent/>}
    {watchid=="e5R91k4EEAA" &&<YoutubeComponent/>}

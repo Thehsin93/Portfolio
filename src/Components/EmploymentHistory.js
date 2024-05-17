@@ -12,7 +12,7 @@ const EmploymentHistory = () => {
         setclickstate(i);
     }
   return (<div>
-    <img src={emplink} alt="proimage" className='absolute h-auto w-full md:w-[100%] object-cover  -z-10'></img>
+    <img src={emplink} alt="proimage" className='absolute h-[175%] w-full md:w-[100%] object-cover  -z-10'></img>
     <div className=' w-[80%] md:w-[40%] flex flex-col ml-[10%] md:ml-[55%] my-[5%] pt-[2%] bg-gray-200 absolute  rounded-3xl'>
        
     <div className="w-10/12 mx-auto mb-2 bg-gray-50 shadow-lg p-4 rounded-3xl">

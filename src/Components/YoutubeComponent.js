@@ -3,9 +3,9 @@ import { headerbg } from '../Utils/constants'
 const YoutubeComponent = () => {
   return (
     <div className='w-[45%] items-center  bg- rounded-lg' >
-        <div className='w-[100%]'>
-        <img src={headerbg} alt="sideimg" className='absolute w-[45%] h-screen rounded-lg -z-10'/>
-        </div>
+       
+        <img src={headerbg} alt="sideimg" className='absolute w-[100%] h-screen rounded-lg -z-10'/>
+      
         <div className='relative py-[14%]'>
         <div className='rounded-full py-[14.5%] border border-gray-400 mx-[5%] bg-beige-50 items-center'>
         <div className='flex flex-col text-center'>
