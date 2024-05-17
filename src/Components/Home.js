@@ -5,9 +5,9 @@ import { sideimg,chair,projectimg,headerbg } from '../Utils/constants'
 const Home = () => {
   return (
     <div className='w-full  flex'>
-        <div className='w-[70%] md:w-[45%] items-center   rounded-lg' >
+        <div className='w-[70%] md:w-[55%] items-center   rounded-lg' >
             <div className='w-[100%]'>
-        <img src={headerbg} alt="sideimg" className='absolute w-[70%] md:w-[45%] h-[104%] md:h-[85%] rounded-lg -z-10'/>
+        <img src={headerbg} alt="sideimg" className='absolute w-[70%] md:w-[55%] h-screen  rounded-lg -z-10 object-cover'/>
         </div>
         <div className='relative w-[100%] border rounded-full pl-[10%] pr-[5%] md:pr-0 bg-beige-50 mt-[11%]'>
         <div className='py-[15%] md:py-[7%]'>
@@ -54,8 +54,8 @@ const Home = () => {
             </div>
 </div>
         </div>
-        <div className='w-[30%] md:w-[55%] object-cover items-center shadow-lg bg-gray-300 rounded-lg'>
-           <img src={projectimg} alt="sideimg" className='w-full h-[105%] md:h-[109%] object-cover rounded-lg'/>
+        <div className='w-[30%] md:w-[45%] object-cover items-center shadow-lg bg-gray-300 rounded-lg'>
+           <img src={projectimg} alt="sideimg" className='w-full h-screen object-cover rounded-lg'/>
         </div>
 
         
