@@ -5,14 +5,14 @@ import { sideimg,chair,projectimg,headerbg } from '../Utils/constants'
 const Home = () => {
   return (
     <div className='w-full  flex'>
-        <div className='w-[70%] md:w-[55%] items-center   rounded-lg' >
+        <div className='w-[70%] md:w-[50%] items-center   rounded-lg' >
             <div className='w-[100%]'>
         <img src={headerbg} alt="sideimg" className='absolute w-[70%] md:w-[55%] h-screen  rounded-lg -z-10 object-cover'/>
         </div>
         <div className='relative w-[100%] border rounded-full pl-[10%] pr-[5%] md:pr-0 bg-beige-50 mt-[11%]'>
         <div className='py-[15%] md:py-[7%]'>
             <h1 className='text-2xl font-bold text-center'>Hello, I am Thehsin</h1>
-            <p className='p-[1.15%]'>A passionate software developer with 6 years of industry experience possessing the below skillset</p>
+            <p className='p-[1.15%] max-w-[85%]'>A passionate software developer with 6 years of industry experience possessing below skillset </p>
             <div className='flex'>
            
             <li className='list-none pt-[0.5%] w-[50%]'>
@@ -47,15 +47,15 @@ const Home = () => {
             </div>
             <div>
             <li className='list-none p-[0.5%] w-[100%]'>
-                <h1 className='font-bold text-lg'>Others</h1>
+                <h1 className='pl-[1.5%] font-bold text-lg'>Others</h1>
              <p className='pl-[2.5%]'>xml, Json, WCF web services, Rest & Soap APis, functional components</p>
             </li>
             </div>
             </div>
 </div>
         </div>
-        <div className='w-[30%] md:w-[45%] object-cover items-center shadow-lg bg-gray-300 rounded-lg'>
-           <img src={projectimg} alt="sideimg" className='w-full h-screen object-cover rounded-lg'/>
+        <div className='w-[30%] md:w-[50%]  items-center shadow-lg bg-gray-300 rounded-lg'>
+           <img src={projectimg} alt="sideimg" className='w-full h-screen object-cover  rounded-lg'/>
         </div>
 
         
