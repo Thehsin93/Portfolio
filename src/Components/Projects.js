@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className='w-screen text-sm'>
      
-            <img src={projectimg} alt="proimage" className='h-[85%] w-screen absolute -z-10'></img>
+            <img src={projectimg} alt="proimage" className='h-screen md:h-[85%] w-screen absolute -z-10'></img>
       
         <div className='pt-[10%] flex flex-col md:flex-row md:justify-center items-center'>
         <div  className="m-4 p-4 w-[70%] md:w-[25%]  rounded-2xl bg-gray-100 hover:bg-gray-200 text-left cursor-pointer">
