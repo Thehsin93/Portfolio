@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
     <img src={contact} alt="proimage" className='absolute  w-[100%] h-[85%] object-cover  -z-10'></img>
-    <div className='w-[40%] flex flex-col ml-[55%] my-[5%] py-[2%]  absolute  rounded-3xl bg-beige-50'>
+    <div className='w-[80%] md:w-[40%] flex flex-col ml-[7%] md:ml-[55%] my-[40%] md:my-[5%] py-[2%]  absolute  rounded-3xl bg-beige-50'>
        
    
     <div className="flex justify-center">
