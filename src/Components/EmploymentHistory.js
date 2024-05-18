@@ -17,7 +17,7 @@ const EmploymentHistory = () => {
        
     <div className="w-10/12 mx-auto mb-2 bg-gray-50 shadow-lg p-4 rounded-3xl">
         <div className="flex justify-between" onClick={()=>handleclick(1)}>
-        <span className="text-lg italic underline">
+        <span className="text-sm italic underline">
             Department Of Health (Jan 2023- Jan 2024)
         </span>
         <img className="w-6 h-6 md:w-5"src={arrowLink}></img>
@@ -32,7 +32,7 @@ const EmploymentHistory = () => {
     </div>
     <div className="w-10/12 mx-auto my-2 bg-gray-50 shadow-lg p-4 rounded-3xl">
         <div className="flex justify-between" onClick={()=>handleclick(2)}>
-        <span className="text-lg italic underline">
+        <span className="text-sm italic underline">
             Unity Infotech (Oct 2021 - Jan 2023)
         </span>
         <img className="w-6 h-6 md:w-5"src={arrowLink}></img>
@@ -47,7 +47,7 @@ const EmploymentHistory = () => {
     </div>
     <div className="w-10/12 mx-auto my-2 bg-gray-50 shadow-lg p-4 rounded-3xl">
         <div className="flex justify-between" onClick={()=>handleclick(3)}>
-        <span className="text-lg italic underline">
+        <span className="text-sm italic underline">
            Cinque Technologies (Mar 2019 - Aug 2020)
         </span>
         <img className="w-6 h-6 md:w-5"src={arrowLink}></img>
@@ -62,7 +62,7 @@ const EmploymentHistory = () => {
     </div>
     <div className="w-10/12 mx-auto my-2 bg-gray-50 shadow-lg p-4 rounded-3xl">
         <div className="flex justify-between" onClick={()=>handleclick(4)}>
-        <span className="text-lg italic underline">
+        <span className="text-sm italic underline">
            Saar Information Technology (Mar 2018 - Mar 2019)
         </span>
         <img className="w-6 h-6 md:w-5"src={arrowLink}></img>
@@ -77,7 +77,7 @@ const EmploymentHistory = () => {
     </div>
     <div className="w-10/12 mx-auto mt-2 mb-6 bg-gray-50 shadow-lg p-4 rounded-3xl">
         <div className="flex justify-between" onClick={()=>handleclick(5)}>
-        <span className="text-lg italic underline">
+        <span className="text-sm italic underline">
            Tata Elxsi (Nov 2016 - Jan 2018)
         </span>
         <img className="w-6 h-6 md:w-5"src={arrowLink}></img>

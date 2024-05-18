@@ -6,10 +6,10 @@ const NetflixComponent = () => {
         
         <img src={headerbg} alt="sideimg" className='absolute w-[100%] h-screen rounded-lg -z-10'/>
        
-        <div className='relative py-[14%] w-[100%]'>
-        <div className='rounded-full py-[14.5%] border border-gray-400  bg-beige-50 items-center'>
+        <div className='relative py-[20%]'>
+        <div className='rounded-full py-[7.5%] border border-gray-400 mx-[5%] bg-beige-50 items-center text-sm'>
         <div className='flex flex-col text-center'>
-        <h1 className='text-2xl font-bold pb-[2%]'>Netflix Clone App</h1>
+        <h1 className='text-lg font-bold pb-[2%] underline'>Netflix Clone App</h1>
         <p>1. Sample demo app built cloning Netflix UI</p>
         <p>2. Authentication using Firebase API</p>
        

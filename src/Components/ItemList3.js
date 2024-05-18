@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemList3 = () => {
   return (
-    <div className='pl-[1%] mt-[2%]'>
+    <div className='pl-[1%] mt-[2%] text-sm'>
         <h1 className='font-bold pt-[1%]'>Computer Engineer</h1>
        
         <li >
@@ -11,7 +11,7 @@ const ItemList3 = () => {
         <li>
         	Design & development of tables, stored procedures, triggers, functions etc   
         </li>
-        <li className='hidden md:block'>
+        <li className=''>
             Testing & Deployments
         </li>
         <li>

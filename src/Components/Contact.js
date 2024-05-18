@@ -10,9 +10,9 @@ const Contact = () => {
    
     <div className="flex justify-center">
           <img src={linkedin} alt="linkimg" className='w-[5%] bg-transparent' ></img>
-        <span className="text-lg italic underline pl-[1%]">
+        <a href="https://www.linkedin.com/in/thehsin-cj-644489140" target="_blank"  className="text-sm italic underline pl-[1%]">
         www.linkedin.com/in/thehsin-cj-644489140
-        </span>
+        </a>
        
         </div>
         
@@ -24,7 +24,7 @@ const Contact = () => {
    
          <div className="flex justify-center">
           <img src={gmail} alt="linkimg" className='w-[5%]' ></img>
-        <span className="text-lg italic underline pl-[1%]">
+        <span className="text-sm italic underline pl-[1%]">
         thehsincj@gmail.com
         </span>
        
@@ -39,9 +39,11 @@ const Contact = () => {
         
    <div className="flex justify-center">
           <img src={github} alt="linkimg" className='w-[5%]' ></img>
-        <span className="text-lg italic underline pl-[1%]">
+        <a href="https://github.com/Thehsin93" target="_blank" className="text-sm italic underline pl-[1%]">
         https://github.com/Thehsin93
-        </span>
+        </a>
+       
+        
        
         </div>
         
