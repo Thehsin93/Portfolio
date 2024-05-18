@@ -2,7 +2,7 @@ import React from 'react'
 import { headerbg } from '../Utils/constants'
 const NetflixComponent = () => {
   return (
-    <div className='w-[45%] items-center  bg- rounded-lg' >
+    <div className='w-[100%] md:w-[45%] items-center  bg- rounded-lg' >
         
         <img src={headerbg} alt="sideimg" className='absolute w-[100%] h-screen rounded-lg -z-10'/>
        
