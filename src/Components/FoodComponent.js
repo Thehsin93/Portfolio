@@ -20,6 +20,7 @@ const FoodComponent = () => {
         <p>5. Adding and Removing cart using Redux</p>
         <p>6.Styling using Tailwind CSS</p>
         <p>7. Built using React Hooks and React Components</p>
+        <p><a href="https://main--foodorderingcj.netlify.app/" target="_blank" className='underline'>https://main--foodorderingcj.netlify.app/</a></p>
         </div>
         </div>
         </div>

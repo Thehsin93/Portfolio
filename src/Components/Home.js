@@ -49,7 +49,7 @@ const Home = () => {
            
             <li className='list-none  w-[100%] text-center'>
                 <h1 className='font-bold text-sm pr-[12.5%]'>Others</h1>
-             <p className='text-sm pr-[14%]'>xml, Json, WCF web services, Rest & Soap APis, functional components</p>
+             <p className='text-sm pl-[5%] italic w-[75%]'>xml, Json, WCF web services, Rest & Soap APis, JWT Tokens, OAuth</p>
             </li>
             </div>
             </div>

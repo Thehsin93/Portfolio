@@ -19,6 +19,7 @@ const YoutubeComponent = () => {
         <p>6. Hirearchial Comments Section</p>
         <p>7. Live Chat</p>
         <p>8. State Management using Redux</p>
+        <p><a href="https://myreactyoutube.netlify.app" target="_blank" className='underline'>https://myreactyoutube.netlify.app</a></p>
         </div>
         </div>
         </div>

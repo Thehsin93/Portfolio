@@ -18,7 +18,7 @@ const Projects = () => {
        
         <h3 className="text-wrap font-bold underline">Food Ordering APP</h3>
         <h4 className="overflow-hidden whitespace-normal">A food delivery app designed for demo with Swiggy API</h4>
-        <h4 className='underline'>https://main--foodorderingcj.netlify.app/</h4>
+        
         </Link>
         </div>
        
@@ -28,7 +28,7 @@ const Projects = () => {
        <ImageNetflix/>
         <h3 className="text-wrap font-bold underline">Netflix Clone</h3>
         <h4 className="overflow-hidden whitespace-normal">Clone of Netflix with TMDB,Firebase and Open AI Api Integrations</h4>
-        <h4 className='underline'>https://main--netflixgptcj.netlify.app/</h4>
+        
         </Link>
         </div>
        
@@ -38,7 +38,7 @@ const Projects = () => {
       <ImageYoutube/>
         <h3 className="text-wrap font-bold underline">YouTube Clone</h3>
         <h4 className="overflow-hidden whitespace-normal">Clone of Youtue with debouncing search, live chat , hierarchial comments</h4>
-        <h4 className='underline'>https://myreactyoutube.netlify.app</h4>
+       
         </Link>
         </div>
         

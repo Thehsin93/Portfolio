@@ -19,6 +19,7 @@ const NetflixComponent = () => {
         <p>6. Search field for movie suggestions from Open AI</p>
         <p>7. Multi language support</p>
         <p>8. State Management using Redux</p>
+        <p><a href="https://main--netflixgptcj.netlify.app/" target="_blank" className='underline'>https://main--netflixgptcj.netlify.app/</a></p>
         </div>
         </div>
         </div>
